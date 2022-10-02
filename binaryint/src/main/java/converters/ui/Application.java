@@ -7,10 +7,10 @@ import java.awt.event.WindowAdapter;
 import java.awt.event.WindowEvent;
 
 /*
- * Created on 21.03.2014
+ * Created on 02.10.2022
  */
 /**
- * @author Wolfgang Weck
+ * @author Ouda Hesham
  */
 @SuppressWarnings("serial")
 public final class Application extends Frame {

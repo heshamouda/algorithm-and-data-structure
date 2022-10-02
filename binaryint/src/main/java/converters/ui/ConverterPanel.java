@@ -22,10 +22,10 @@ import converters.decimal.DecDocListener;
 import converters.decimal.DecUpdater;
 
 /*
- * Created on 04.09.2014
+ * Created on 02.10.2022
  */
 /**
- * @author Wolfgang Weck
+ * @author Ouda Hesham
  */
 @SuppressWarnings("serial")
 public class ConverterPanel extends Panel {

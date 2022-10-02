@@ -6,10 +6,10 @@ import javax.swing.text.PlainDocument;
 import converters.base.Updater;
 
 /*
- * Created on 05.09.2014
+ * Created on 02.10.2022
  */
 /**
- * @author Wolfgang Weck
+ * @author Ouda Hesham
  */
 public class BinUpdater implements Updater<Integer> {
 	private final Document doc;

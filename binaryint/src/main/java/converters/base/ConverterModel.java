@@ -6,10 +6,10 @@ import java.util.List;
 import javax.swing.text.Document;
 
 /*
- * Created on 05.09.2014
+ * Created on 02.10.2022
  */
 /**
- * @author Wolfgang Weck
+ * @author Ouda Hesham
  */
 public class ConverterModel<E> {
 	private E value;

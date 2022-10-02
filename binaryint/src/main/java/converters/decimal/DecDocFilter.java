@@ -1,16 +1,16 @@
 package converters.decimal;
 
 /*
- * Created on 04.09.2014
+ * Created on 02.10.2022
+ */
+/**
+ * @author Ouda Hesham
  */
 import javax.swing.text.AttributeSet;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.Document;
 import javax.swing.text.DocumentFilter;
 
-/**
- * @author Wolfgang Weck
- */
 public class DecDocFilter extends DocumentFilter {
 	private final int min, max;
 

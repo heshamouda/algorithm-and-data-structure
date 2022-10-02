@@ -8,10 +8,10 @@ import converters.base.AbstractDocListener;
 import converters.base.ConverterModel;
 
 /*
- * Created on 05.09.2014
+ * Created on 02.10.2022
  */
 /**
- * @author Wolfgang Weck
+ * @author Ouda Hesham
  */
 public class DecDocListener extends AbstractDocListener<Integer> {
 	public DecDocListener(ConverterModel<Integer> model) {
