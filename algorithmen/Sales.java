@@ -8,7 +8,27 @@ public class Sales {
         // Write your code here
         // To debug: System.err.println("Debug messages...");
 
-        return -1;
+        /*
+         * Constraints:
+         * 0 ≤ discount ≤ 100
+         * 0 < price of a product < 100000
+         * 0 < number of products < 100
+         */
+
+        int mostExpensive = 0;
+        int total = 0;
+        for (int i = 0; i < prices.length; i++) {
+            if (0 > discount || discount > 100 || 0 > prices[i] || prices[i] > 100000 || prices.length > 100) {
+                System.err.println("unvalid value.");
+            }
+
+            if (mostExpensive < prices[i]) {
+                mostExpensive = prices[i];
+            }
+            total += prices[i];
+        }
+
+        return (int) Math.floor(total - (mostExpensive * discount / 100.0f));
     }
 
     // #region main
