@@ -6,6 +6,18 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch largestNumber",
+      "request": "launch",
+      "mainClass": "largestNumber"
+    },
+    {
+      "type": "java",
+      "name": "Launch X",
+      "request": "launch",
+      "mainClass": "X"
+    },
+    {
+      "type": "java",
       "name": "Launch Sales",
       "request": "launch",
       "mainClass": "Sales"

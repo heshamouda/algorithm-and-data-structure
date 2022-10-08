@@ -1,7 +1,6 @@
 public class largestNumber {
 
     public static void main(String[] args) {
-<<<<<<< HEAD
         int[] test = { 3, 2, 5, 5, -2, 100 };
         System.out.println("x= " + findLargest(test));
 
@@ -21,10 +20,4 @@ public class largestNumber {
         }
         return largest;
     }
-=======
-        // largestNumber();
-
-    }
-
->>>>>>> fea6c347f51ae9035b4db6684b933e82c4fd388b
 }
