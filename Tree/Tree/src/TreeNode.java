@@ -3,6 +3,26 @@ public class TreeNode {
     private TreeNode leftChild;
     private TreeNode rightChild;
 
+    public void insert(int value) {
+        if (value == data) {
+            return;
+        }
+
+        if (value < data) {
+            if (leftChild == null) {
+                leftChild = new TreeNode(value);
+            } else {
+                leftChild.insert(value);
+            }
+        } else {
+            if (rightChild == null) {
+                rightChild = new TreeNode(value);
+            } else {
+                rightChild.insert(value);
+            }
+        }
+    }
+
     public TreeNode(int data) {
         this.data = data;
     }
