@@ -17,6 +17,7 @@ public class App {
         intTree.insert(29);
         intTree.insert(26);
         intTree.insert(40);
+        intTree.transversInorder();
 
     }
 }
