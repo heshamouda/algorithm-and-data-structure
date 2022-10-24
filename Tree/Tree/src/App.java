@@ -1,4 +1,4 @@
-public class App {
+public class LinearSearch {
     public static void main(String[] args) throws Exception {
         // root --> edge --> leaf
         /*
