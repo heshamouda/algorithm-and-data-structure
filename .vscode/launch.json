@@ -6,6 +6,13 @@
   "configurations": [
     {
       "type": "java",
+      "name": "Launch LinearSearch",
+      "request": "launch",
+      "mainClass": "search.LinearSearch",
+      "projectName": "algorithm-and-data-structure_dab0b33c"
+    },
+    {
+      "type": "java",
       "name": "Launch App",
       "request": "launch",
       "mainClass": "App"
