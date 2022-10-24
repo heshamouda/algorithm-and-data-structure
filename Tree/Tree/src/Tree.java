@@ -10,4 +10,10 @@ public class Tree {
         }
     }
 
+    public void transversInorder() {
+        if (root != null) {
+            root.transversInorder();
+        }
+    }
+
 }
