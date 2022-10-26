@@ -40,6 +40,7 @@ public class Sales {
         for (int i = 0; i < n; i++) {
             prices[i] = in.nextInt();
         }
+        in.close();
         PrintStream outStream = System.out;
         System.setOut(System.err);
         int price = calculateTotalPrice(prices, discount);
